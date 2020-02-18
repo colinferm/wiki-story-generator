@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Colin Andrew Ferm"
+		]
+	},
+	"storygenerator": "URS Story Generator",
+	"storygenerator-desc": "Generates plots and aggregates related wiki articles for stories set within the Unified Republic of Stars",
+	"storygenerator-summary": "Generates story ideas with relevant links to wiki content."
+}

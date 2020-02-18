@@ -1,0 +1,36 @@
+{
+	"name": "StoryGenerator",
+	"version": "1.1.0",
+	"author": [
+		"Colin Andrew Ferm"
+	],
+	"url": "https://github.com/colinferm/wiki-story-generator",
+	"descriptionmsg": "storygenerator-desc",
+	"license-name": "BSD-3-Clause",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"MessagesDirs": {
+		"StoryGenerator": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"StoryGeneratorLib::installSchema"
+		]
+	},
+	"SpecialPages": {
+		"StoryGenerator": "StoryGeneratorSpecialPage"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "StoryGenerator"
+	},
+	"AutoloadClasses": {
+		"StoryGeneratorSpecialPage": "StoryGeneratorSpecialPage.php",
+		"StoryGeneratorLib": "StoryGeneratorLib.php"
+	},
+	"manifest_version": 1
+}
